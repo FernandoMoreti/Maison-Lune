@@ -5,7 +5,7 @@ import { ShoppingBag } from "lucide-react";
 
 export default function Header() {
 	return (
-		<header className="flex bg-[#f6ece0] justify-between items-center py-5 px-20">
+		<header className="flex border-b border-gray-400 bg-[#f6ece0] justify-between items-center py-5 px-20">
 			<Image src={"/LOGO.png"} alt="Logo" width={200} height={200} />
 
 			<Nav />

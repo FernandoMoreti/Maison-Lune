@@ -1,0 +1,31 @@
+import Button from "../UI/Button";
+import { ShoppingBag } from "lucide-react";
+
+export default function Hero() {
+	return (
+		<section className="px-20 py-10 bg-linear-to-b from-[#f6ece2] to-white">
+			<h1 className="w-150 font-display text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 animate-fade-up leading-tight">
+				Descubra o <span className="text-[#dd643c]">Extraordinário</span> em
+				Cada Detalhe
+			</h1>
+			<p className="text-lg md:text-xl text-muted-foreground mb-8 text-[#977e6c] animate-fade-up-delayed max-w-xl">
+				Sapatos femininos pensados para valorizar seu dia a dia com estilo e
+				conforto. Peças selecionadas com carinho, feitas para quem busca
+				qualidade e elegância.
+			</p>
+
+			<div className="flex gap-5">
+				<Button
+					classname="flex w-50 justify-center items-center border-[#dd643c] text-white bg-[#dd643c] gap-3 px-7 py-3 border rounded-xl"
+					description="Explorar loja"
+					icon={<ShoppingBag size={20} />}
+				/>
+				<Button
+					classname="flex w-50 justify-center items-center border-[#dd643c] text-[#dd643c] gap-3 px-7 py-3 border-2 rounded-xl"
+					description="Ver Produtos"
+					icon={null}
+				/>
+			</div>
+		</section>
+	);
+}
