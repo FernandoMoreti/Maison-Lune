@@ -5,11 +5,14 @@ export default function ProductSection() {
 	return (
 		<section className="flex flex-col gap-15 py-15">
 			<div className="flex flex-col justify-center items-center">
-				<h3 className="font-medium text-[#dd643c] text-sm uppercase tracking-widest">
+				<h3 className="font-medium bg-linear-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent text-sm uppercase tracking-widest">
 					Coleção em Destaque
 				</h3>
 				<h1 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-4 mb-6">
-					Produtos que Você Vai <span className="text-[#dd643c]">Amar</span>
+					Produtos que Você Vai{" "}
+					<span className="bg-linear-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent">
+						Amar
+					</span>
 				</h1>
 				<p className="text-md text-[#977e6c] max-w-xl text-center">
 					Selecionamos os melhores produtos para tornar seu dia a dia mais

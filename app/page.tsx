@@ -2,15 +2,18 @@ import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import Hero from "@/components/layout/Hero";
 import ProductSection from "@/components/layout/ProductSection";
-import Product from "@/components/UI/Product";
+import About from "@/components/layout/About";
 
 export default function Home() {
 	return (
 		<>
 			<Header />
+
 			<Hero />
 
 			<ProductSection />
+
+			<About />
 
 			<Footer />
 		</>
