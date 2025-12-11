@@ -3,7 +3,7 @@ import { ShoppingBag } from "lucide-react";
 
 export default function Hero() {
 	return (
-		<section className="px-20 py-10 bg-linear-to-b from-[#f6ece2] to-white">
+		<section className="px-20 py-10 bg-linear-to-b from-[#b08a69] to-white">
 			<h1 className="w-150 font-display text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 animate-fade-up leading-tight">
 				Descubra o{" "}
 				<span className="bg-linear-to-r from-yellow-900 via-yellow-300 to-yellow-900 bg-clip-text text-transparent">

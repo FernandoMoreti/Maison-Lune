@@ -1,8 +1,11 @@
+import Card from "../UI/Card";
+import { Heart, Package, Truck, Shield } from "lucide-react";
+
 export default function About() {
 	return (
-		<section>
-			<div className="grid grid-cols-2">
-				<div className="flex flex-col px-20 gap-5">
+		<section className="grid grid-cols-2 bg-linear-to-l from-[#d1c3b5] to-[#ffff] p-20">
+			<div className="">
+				<div className="flex flex-col">
 					<p className="text-sm tracking-widest">SOBRE NÓS</p>
 					<h1 className="text-4xl md:text-5xl font-bold mt-4 mb-6">
 						Paixão por
@@ -24,7 +27,34 @@ export default function About() {
 						nacionais para garantir durabilidade e sofisticação em cada passo.
 					</p>
 				</div>
-				<div></div>
+				<div className="grid grid-cols-2 gap-10">
+					<Card
+						icon={Heart}
+						title={"Conforto Garantido"}
+						text={
+							"Palmilhas ergonômicas e materiais de alta qualidade para seu bem-estar."
+						}
+					/>
+					<Card
+						icon={Package}
+						title={"Embalagem Premium"}
+						text={
+							"Caixa exclusiva com saquinho protetor. Perfeito para presente!"
+						}
+					/>
+					<Card
+						icon={Truck}
+						title={"Entrega Rápida"}
+						text={"Frete grátis para todo Brasil em compras acima de R$ 299."}
+					/>
+					<Card
+						icon={Shield}
+						title={"Troca Garantida"}
+						text={
+							"30 dias para trocar. Se não servir, devolvemos seu dinheiro."
+						}
+					/>
+				</div>
 			</div>
 		</section>
 	);

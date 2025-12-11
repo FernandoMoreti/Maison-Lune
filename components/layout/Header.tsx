@@ -5,7 +5,7 @@ import { ShoppingBag } from "lucide-react";
 
 export default function Header() {
 	return (
-		<header className="flex border-b border-gray-400 bg-[#b08a69] justify-between items-center py-5 px-20">
+		<header className="flex bg-[#b08a69] justify-between items-center py-5 px-20">
 			<Image src={"/Ativo 20.png"} alt="Logo" width={150} height={200} />
 
 			<Nav />
