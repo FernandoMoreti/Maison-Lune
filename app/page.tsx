@@ -4,6 +4,7 @@ import Hero from "@/components/layout/Hero";
 import ProductSection from "@/components/layout/ProductSection";
 import About from "@/components/layout/About";
 import Category from "@/components/layout/Category";
+import Feedback from "@/components/layout/Feedback";
 
 export default function Home() {
 	return (
@@ -17,6 +18,8 @@ export default function Home() {
 			<About />
 
 			<Category />
+
+			<Feedback />
 
 			<Footer />
 		</>

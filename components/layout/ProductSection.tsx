@@ -6,12 +6,12 @@ export default function ProductSection() {
 	return (
 		<section className="flex flex-col justify-center items-center gap-15 py-15">
 			<div className="flex flex-col justify-center items-center">
-				<h3 className="font-medium bg-linear-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent text-sm uppercase tracking-widest">
+				<h3 className="font-medium bg-linear-to-r from-yellow-900 via-yellow-300 to-yellow-900 bg-clip-text text-transparent text-sm uppercase tracking-widest">
 					Coleção em Destaque
 				</h3>
 				<h1 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-4 mb-6">
 					Produtos que Você Vai{" "}
-					<span className="bg-linear-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent">
+					<span className="bg-linear-to-r from-yellow-900 via-yellow-300 to-yellow-900 bg-clip-text text-transparent">
 						Amar
 					</span>
 				</h1>

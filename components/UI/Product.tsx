@@ -20,7 +20,7 @@ export default function Product({ image, name, price }: ProductProps) {
 				<h3 className="font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
 					{name}
 				</h3>
-				<h2 className="text-lg font-bold bg-linear-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent">
+				<h2 className="text-lg font-bold bg-linear-to-r from-yellow-600 via-yellow-300 to-yellow-900 bg-clip-text text-transparent">
 					R$ {price}
 				</h2>
 			</div>

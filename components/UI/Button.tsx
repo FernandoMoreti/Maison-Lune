@@ -12,7 +12,9 @@ export default function Button({
 	icon = null,
 }: ButtonProps) {
 	return (
-		<button className={classname}>
+		<button
+			className={`transition-all duration-200 hover:-translate-y-1 cursor-pointer ${classname}`}
+		>
 			{icon}
 			{description}
 		</button>
