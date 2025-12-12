@@ -1,9 +1,10 @@
+import Image from "next/image";
 import Card from "../UI/Card";
 import { Heart, Package, Truck, Shield } from "lucide-react";
 
 export default function About() {
 	return (
-		<section className="grid grid-cols-2 bg-linear-to-l from-[#d1c3b5] to-[#ffff] p-20">
+		<section className="grid grid-cols-2 gap-10 bg-linear-to-l from-[#d1c3b5] to-[#ffff] px-15 py-10">
 			<div className="">
 				<div className="flex flex-col">
 					<p className="text-sm tracking-widest">SOBRE NÓS</p>
@@ -55,6 +56,9 @@ export default function About() {
 						}
 					/>
 				</div>
+			</div>
+			<div className="flex justify-center  rounded-4xl items-center bg-[#7e553c]">
+				<Image src={"/Ativo 6.jpg"} alt="Logo" width={600} height={200} />
 			</div>
 		</section>
 	);

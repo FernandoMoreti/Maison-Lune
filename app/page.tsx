@@ -3,6 +3,7 @@ import Header from "@/components/layout/Header";
 import Hero from "@/components/layout/Hero";
 import ProductSection from "@/components/layout/ProductSection";
 import About from "@/components/layout/About";
+import Category from "@/components/layout/Category";
 
 export default function Home() {
 	return (
@@ -14,6 +15,8 @@ export default function Home() {
 			<ProductSection />
 
 			<About />
+
+			<Category />
 
 			<Footer />
 		</>

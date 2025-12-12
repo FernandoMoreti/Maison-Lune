@@ -1,9 +1,10 @@
+import Button from "../UI/Button";
 import Product from "../UI/Product";
 import image1 from "@/public/sapato.jpg";
 
 export default function ProductSection() {
 	return (
-		<section className="flex flex-col gap-15 py-15">
+		<section className="flex flex-col justify-center items-center gap-15 py-15">
 			<div className="flex flex-col justify-center items-center">
 				<h3 className="font-medium bg-linear-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent text-sm uppercase tracking-widest">
 					Coleção em Destaque
@@ -26,6 +27,12 @@ export default function ProductSection() {
 				<Product image={image1} name="Mocassim Dourado" price={189.99} />
 				<Product image={image1} name="Mocassim Dourado" price={189.99} />
 			</div>
+
+			<Button
+				icon={""}
+				description="Ver Todos os Produtos"
+				classname="flex w-100 justify-center items-center border-[#7e553a] text-[#7e553a] gap-3 px-7 py-3 border-2 rounded-xl"
+			/>
 		</section>
 	);
 }
