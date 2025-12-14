@@ -24,11 +24,13 @@ export default function Hero() {
 						classname="flex w-50 justify-center items-center border-[#7e553a] text-white bg-[#7e553a] gap-3 px-7 py-3 border rounded-xl"
 						description="Explorar loja"
 						icon={<ShoppingBag size={20} />}
+						link="https://maisonlune5.lojavirtualnuvem.com.br/"
 					/>
 					<Button
 						classname="flex w-50 justify-center items-center border-[#7e553a] text-[#7e553a] gap-3 px-7 py-3 border-2 rounded-xl"
 						description="Ver Produtos"
 						icon={null}
+						link="https://maisonlune5.lojavirtualnuvem.com.br/"
 					/>
 				</div>
 			</div>

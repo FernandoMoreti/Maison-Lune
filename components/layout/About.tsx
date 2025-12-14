@@ -4,7 +4,10 @@ import { Heart, Package, Truck, Shield } from "lucide-react";
 
 export default function About() {
 	return (
-		<section className="grid grid-cols-2 gap-10 bg-linear-to-l from-[#d1c3b5] to-[#ffff] px-15 py-10">
+		<section
+			id="about"
+			className="grid grid-cols-2 gap-10 bg-linear-to-l from-[#d1c3b5] to-[#ffff] px-15 py-10"
+		>
 			<div className="">
 				<div className="flex flex-col">
 					<p className="text-sm tracking-widest">SOBRE NÓS</p>

@@ -4,25 +4,25 @@ export default function Nav() {
 	return (
 		<nav className="flex gap-10">
 			<Link
-				href="#produtos"
+				href="#products"
 				className="text-md font-light text-white transition-all duration-300 hover:text-[#7e553a]"
 			>
 				Produtos
 			</Link>
 			<Link
-				href="#produtos"
+				href="#about"
 				className="text-md font-light text-white transition-all duration-300 hover:text-[#7e553a]"
 			>
 				Sobre
 			</Link>
 			<Link
-				href="#produtos"
+				href="#category"
 				className="text-md font-light text-white transition-all duration-300 hover:text-[#7e553a]"
 			>
 				Categorias
 			</Link>
 			<Link
-				href="#produtos"
+				href="#contact"
 				className="text-md font-light text-white transition-all duration-300 hover:text-[#7e553a]"
 			>
 				Contato

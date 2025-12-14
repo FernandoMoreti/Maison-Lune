@@ -14,6 +14,7 @@ export default function Header() {
 				classname="flex items-center text-white bg-[#7e553a] gap-3 px-7 py-3 border rounded-xl"
 				description={" Ir para a loja"}
 				icon={<ShoppingBag size={20} />}
+				link="https://maisonlune5.lojavirtualnuvem.com.br/"
 			/>
 		</header>
 	);
