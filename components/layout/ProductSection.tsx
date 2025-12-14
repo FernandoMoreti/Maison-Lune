@@ -1,10 +1,18 @@
+"use client";
+
 import Button from "../UI/Button";
 import Product from "../UI/Product";
 import image1 from "@/public/sapato.jpg";
 
+import { motion } from "framer-motion";
+
 export default function ProductSection() {
 	return (
-		<section
+		<motion.section
+			initial={{ opacity: 0, x: -80 }}
+			whileInView={{ opacity: 1, x: 0 }}
+			viewport={{ once: false, amount: 0.3 }}
+			transition={{ duration: 1, ease: "easeOut" }}
 			id="products"
 			className="flex flex-col justify-center items-center gap-15 py-15"
 		>
@@ -37,6 +45,6 @@ export default function ProductSection() {
 				classname="flex w-100 justify-center items-center border-[#7e553a] text-[#7e553a] gap-3 px-7 py-3 border-2 rounded-xl"
 				link="https://maisonlune5.lojavirtualnuvem.com.br/"
 			/>
-		</section>
+		</motion.section>
 	);
 }
