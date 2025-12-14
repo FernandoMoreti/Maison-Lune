@@ -2,7 +2,7 @@ import CardCategory from "../UI/CardCategory";
 
 export default function Category() {
 	return (
-		<section className="py-15 bg-[#d1c2b4]">
+		<section id="category" className="py-15 bg-[#d1c2b4]">
 			<div className="flex flex-col justify-center items-center">
 				<h3 className="font-medium bg-linear-to-r from-yellow-400 via-yellow-300 to-yellow-500 bg-clip-text text-transparent text-sm uppercase tracking-widest">
 					Explore
