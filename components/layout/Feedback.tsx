@@ -1,4 +1,7 @@
+"use client";
+
 import CardFeedback from "../UI/CardFeedback";
+import { motion } from "framer-motion";
 
 export default function Feedback() {
 	return (
@@ -19,7 +22,13 @@ export default function Feedback() {
 				</p>
 			</div>
 
-			<div className="grid grid-cols-3 gap-5 p-15">
+			<motion.div
+				initial={{ opacity: 0, y: 60 }}
+				whileInView={{ opacity: 1, y: 0 }}
+				viewport={{ once: true, amount: 0.7 }}
+				transition={{ duration: 0.6, ease: "easeOut" }}
+				className="grid grid-cols-3 gap-5 p-15"
+			>
 				<CardFeedback
 					feedback="Os produtos são incríveis! A qualidade supera todas as expectativas. A embalagem veio perfeita, como um presente. Com certeza comprarei novamente!"
 					name="Maria Silva"
@@ -38,7 +47,7 @@ export default function Feedback() {
 					letter="A"
 					time="Cliente desde 2025"
 				/>
-			</div>
+			</motion.div>
 		</section>
 	);
 }

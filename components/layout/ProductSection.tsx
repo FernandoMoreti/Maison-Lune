@@ -2,7 +2,10 @@
 
 import Button from "../UI/Button";
 import Product from "../UI/Product";
-import image1 from "@/public/sapato.jpg";
+import image1 from "@/public/mocassim.jpg";
+import image2 from "@/public/tenis.jpg";
+import image3 from "@/public/Rasteirinha.jpg";
+import image4 from "@/public/sandalias.jpg";
 
 import { motion } from "framer-motion";
 
@@ -33,10 +36,14 @@ export default function ProductSection() {
 			</div>
 
 			<div className="flex justify-center gap-10">
-				<Product image={image1} name="Mocassim Dourado" price={189.99} />
-				<Product image={image1} name="Mocassim Dourado" price={189.99} />
-				<Product image={image1} name="Mocassim Dourado" price={189.99} />
-				<Product image={image1} name="Mocassim Dourado" price={189.99} />
+				<Product image={image1} name="Mocassim Dourado" price={139.99} />
+				<Product image={image2} name="Tênis Branco" price={189.99} />
+				<Product
+					image={image3}
+					name="Rasteirinha Pérola Dourada"
+					price={165.99}
+				/>
+				<Product image={image4} name="Sandália Marrom" price={109.99} />
 			</div>
 
 			<Button
