@@ -56,7 +56,7 @@ export default function Footer() {
 							</li>
 							<li>
 								<Link
-									href="https://loja.exemplo.com"
+									href="hhttps://maisonlune5.lojavirtualnuvem.com.br/"
 									className="hover:text-primary transition-colors"
 								>
 									Loja Online
