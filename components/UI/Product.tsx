@@ -5,11 +5,19 @@ interface ProductProps {
 	image: StaticImageData;
 	name: string;
 	price: number;
+	classname: string;
 }
 
-export default function Product({ image, name, price }: ProductProps) {
+export default function Product({
+	image,
+	name,
+	price,
+	classname,
+}: ProductProps) {
 	return (
-		<div className="group flex flex-col w-75 transition-all duration-300 rounded-2xl shadow-xl hover:shadow-2xl">
+		<div
+			className={`${classname} group flex flex-col w-75 transition-all duration-300 rounded-2xl shadow-xl hover:shadow-2xl`}
+		>
 			<Image
 				className="rounded-t-2xl transition-all duration-300 group-hover:scale-110"
 				src={image}

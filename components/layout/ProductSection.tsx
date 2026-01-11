@@ -23,27 +23,43 @@ export default function ProductSection() {
 				<h3 className="font-medium bg-linear-to-r from-yellow-900 via-yellow-300 to-yellow-900 bg-clip-text text-transparent text-sm uppercase tracking-widest">
 					Coleção em Destaque
 				</h3>
-				<h1 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-4 mb-6">
+				<h1 className="font-display text-4xl text-center md:text-start md:text-5xl font-bold text-foreground mt-4 mb-6">
 					Produtos que Você Vai{" "}
 					<span className="bg-linear-to-r from-yellow-900 via-yellow-300 to-yellow-900 bg-clip-text text-transparent">
 						Amar
 					</span>
 				</h1>
-				<p className="text-md text-[#977e6c] max-w-xl text-center">
+				<p className="text-md px-5 md:px-0 text-[#977e6c] max-w-xl text-center">
 					Selecionamos os melhores produtos para tornar seu dia a dia mais
 					especial. Cada item é escolhido com cuidado e atenção aos detalhes.
 				</p>
 			</div>
 
-			<div className="flex justify-center gap-10">
-				<Product image={image1} name="Mocassim Dourado" price={139.99} />
-				<Product image={image2} name="Tênis Branco" price={189.99} />
+			<div className="grid grid-cols-1 md:grid-cols-4 justify-center gap-10">
+				<Product
+					classname="hidden md:flex"
+					image={image1}
+					name="Mocassim Dourado"
+					price={139.99}
+				/>
+				<Product
+					classname=""
+					image={image2}
+					name="Tênis Branco"
+					price={189.99}
+				/>
 				<Product
 					image={image3}
 					name="Rasteirinha Pérola Dourada"
 					price={165.99}
+					classname="hidden md:flex"
 				/>
-				<Product image={image4} name="Sandália Marrom" price={109.99} />
+				<Product
+					classname=""
+					image={image4}
+					name="Sandália Marrom"
+					price={109.99}
+				/>
 			</div>
 
 			<Button
