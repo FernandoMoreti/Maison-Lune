@@ -27,7 +27,7 @@ export default function Category() {
 					Navegue por nossas categorias e encontre seu próximo par favorito.
 				</p>
 			</motion.div>
-			<div className="grid grid-cols-2 gap-5 px-25 mt-15">
+			<div className="grid grid-cols-2 gap-5 px-5 md:px-25 mt-15">
 				<motion.div
 					initial={{ opacity: 0, x: -60 }}
 					whileInView={{ opacity: 1, x: 0 }}
@@ -37,11 +37,13 @@ export default function Category() {
 				>
 					<CardCategory
 						name={"Saltos"}
-						models={"Salto Alto, Salto Baixo, Salto Pequeno"}
+						models={"Salto Alto, Baixo"}
+						classname="h-50 md:h-auto"
 					/>
 					<CardCategory
 						name={"Rasteirinha"}
-						models={"Rasteirinha, Rasteirinha"}
+						models={"Rasteirinha Delicadas, Elegantes"}
+						classname="h-50 md:h-auto"
 					/>
 				</motion.div>
 				<motion.div
@@ -51,8 +53,16 @@ export default function Category() {
 					transition={{ duration: 0.6, ease: "easeOut" }}
 					className="flex flex-col gap-5"
 				>
-					<CardCategory name={"Tênis"} models={"Tênis, Tênis"} />
-					<CardCategory name={"Sandalias"} models={"Sandalias, Sandalias"} />
+					<CardCategory
+						name={"Tênis"}
+						models={"Tênis Moderno, Social"}
+						classname="h-50 md:h-auto"
+					/>
+					<CardCategory
+						name={"Sandalias"}
+						models={"Sandalias Elegantes, Modernas"}
+						classname="h-50 md:h-auto"
+					/>
 				</motion.div>
 			</div>
 		</section>
