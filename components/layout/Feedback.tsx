@@ -10,7 +10,7 @@ export default function Feedback() {
 				<h3 className="font-medium bg-linear-to-r from-yellow-900 via-yellow-300 to-yellow-900 bg-clip-text text-transparent text-sm uppercase tracking-widest">
 					Depoimentos
 				</h3>
-				<h1 className="font-display text-4xl md:text-5xl font-bold text-foreground mt-4 mb-6">
+				<h1 className="text-center md:text-start font-display text-4xl md:text-5xl font-bold text-foreground mt-4 mb-6">
 					O que Nossos Clientes{" "}
 					<span className="bg-linear-to-r from-yellow-900 via-yellow-300 to-yellow-900 bg-clip-text text-transparent">
 						Dizem
@@ -27,7 +27,7 @@ export default function Feedback() {
 				whileInView={{ opacity: 1, y: 0 }}
 				viewport={{ once: true, amount: 0.7 }}
 				transition={{ duration: 0.6, ease: "easeOut" }}
-				className="grid grid-cols-3 gap-5 p-15"
+				className="grid grid-cols-1 md:grid-cols-3 gap-5 p-15"
 			>
 				<CardFeedback
 					feedback="Os produtos são incríveis! A qualidade supera todas as expectativas. A embalagem veio perfeita, como um presente. Com certeza comprarei novamente!"
