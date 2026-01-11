@@ -28,10 +28,10 @@ export default function SeeMore() {
 					<Stars size={15} />
 					Oferta Especial
 				</p>
-				<h1 className="font-display shadow-2xl rounded-xl px-10 text-4xl md:text-7xl font-bold text-foreground mt-4 mb-6">
+				<h1 className="text-center md:text-start font-display shadow-2xl rounded-xl px-10 text-3xl md:text-7xl font-bold text-foreground mt-4 mb-6">
 					Pronta para Arrasar?
 				</h1>
-				<p className="text-lg tracking-wide text-[#ede3da] max-w-2xl text-center mt-5">
+				<p className="text-lg tracking-wide text-[#ede3da] max-w-2xl text-center mt-5 px-5">
 					Visite nossa loja agora e encontre sapatos incríveis com até{" "}
 					<strong className="text-white">40% de desconto</strong>. Frete grátis
 					em compras acima de R$ 299!
@@ -45,11 +45,11 @@ export default function SeeMore() {
 				/>
 			</div>
 
-			<div className="flex justify-center items-center gap-5 mt-10 text-[#ede3da]">
+			<div className="grid grid-cols-2 md:grid-cols-4 text-start px-5 justify-center items-center gap-5 mt-10 text-[#ede3da]">
 				{list.map((bonus, index) => (
 					<p
 						key={index}
-						className="flex justify-center items-center gap-1 text-sm"
+						className="flex md:justify-center items-center gap-1 text-sm"
 					>
 						<Check />
 						{bonus.name}

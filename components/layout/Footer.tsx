@@ -70,11 +70,11 @@ export default function Footer() {
 						<ul className="space-y-3 text-background/60 text-sm">
 							<li className="flex items-center gap-2">
 								<Mail className="w-4 h-4 text-primary" />
-								contato@essencia.com.br
+								contatomaisonlune@hotmail.com
 							</li>
 							<li className="flex items-center gap-2">
 								<Phone className="w-4 h-4 text-primary" />
-								(11) 99999-9999
+								(16) 99334-2753
 							</li>
 							<li className="flex items-start gap-2">
 								<MapPin className="w-4 h-4 text-primary mt-0.5" />
@@ -89,7 +89,7 @@ export default function Footer() {
 						© 2025 Maison Lune. Todos os direitos reservados.
 					</p>
 					<p className="text-background/40 text-sm">
-						Criado por Fernando Moreti
+						Create by Fernando Moreti
 					</p>
 				</div>
 			</div>
